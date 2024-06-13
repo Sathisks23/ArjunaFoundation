@@ -25,7 +25,7 @@ button {
 
 .navbar {
   height: 90px;
-  background-color: #D9D9D9;
+  background-color: #ffc107;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -53,30 +53,30 @@ button {
 .menu-links {
   display: flex;
   gap: 24px;
-  border-right: 1px solid #999999;
+  border-right: 1px solid #282727;
   padding-inline: 24px;
 }
 
 .menu-links a {
   font-weight: 500;
-  color: #999999;
+  color: #f5ecec;
   padding: 8px 16px;
 }
 .menu-links a:hover {
   color: white;
 }
-.log-in {
+.donate {
   font-weight: 500;
   padding: 12px 22px;
-  background-color: transparent;
-  color: #999999;
+  background-color:#dc3545;
+  color: #232222;
   border-radius: 10px;
-  border: 2px solid #0aa5ff;
+  border: 2px solid #1e1d1d;
   transition: 0.2s;
 }
-.log-in:hover {
-  background-color: #C98A0F;
-  color: white;
+.donate:hover {
+  background-color: #50ddf0;
+  color: rgb(232, 230, 230);
 }
 
 .menu-btn {
