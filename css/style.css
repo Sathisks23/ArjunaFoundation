@@ -86,6 +86,25 @@ button {
   cursor: pointer;
 }
 
+/* services sociial icon  ------------------ */
+.social-icons li{
+  display: inline;
+}
+.social-icons li i{
+  background: #e0b01d;
+  color: #fff;
+  padding:15px;
+  font-size:20px;
+  border-radius: 22%;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: all .5s;
+}
+.social-icons li i:hover{
+  background: #fff;
+  color:#000;
+}
+
 /*   embendeed video */
 .Video {
   margin: 2em auto;
